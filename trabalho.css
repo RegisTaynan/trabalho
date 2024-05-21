@@ -4,28 +4,16 @@ body{
 
 }
 header{
-    text-align:center;
+    color: black;
+    text-align: center;
     font-style:italic
 }
 section{
+    color: rgb(0, 0, 0);
     margin:auto;
-    background-color:white;
-    padding:25px;
+    background-color: white;
+    padding:15px;
     box-shadow:7px 7px 10px black;
-    border-radius:50px;
-    text-align:center
-}
-div#agua{
-    border-radius:50%;
+    border-radius:25px;
     text-align:center;
 }
-@media screen and (max-width: 600px) {
-    
-    
-    
-    div#agua img{
-    Min-width: 200px;
-    Max-width:600px;
-    }
-    
-    }
