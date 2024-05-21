@@ -19,7 +19,9 @@ div#agua{
     border-radius:50%;
     text-align:center;
     div#agua img {
-        min-width: 200px;
-        max-width: 600px;
+        min-width: auto;
+        min-height: auto;
+        max-width: auto;
+        max-height: auto;
     }
 }
