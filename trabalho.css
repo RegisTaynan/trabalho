@@ -15,7 +15,11 @@ section{
     border-radius:50px;
     text-align:center
 }
-section#agua{
+div#agua{
     border-radius:50%;
-    text-align:center
+    text-align:center;
+    div#agua img {
+        min-width: 200px;
+        max-width: 600px;
+    }
 }
