@@ -1,18 +1,21 @@
 body{
-    background-color: rgb(20, 19, 19);
+    background-color: white;
     font:normal 15pt arial
     
 }
 header{
-    color: #31cfe9f0;
+    color: black;
     text-align: center;
     font-style:italic
 }
 section{
-    color: #31cfe9f0;
+    color: black;
     margin:auto;
     background-color: rgb(20, 19, 19);
     padding:15px;
-    border-radius:25px;
-    text-align:center;
+    background-color: white;
+}
+div.foto{
+    display: flex;
+    margin-top: 15px;
 }
