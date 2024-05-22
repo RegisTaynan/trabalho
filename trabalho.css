@@ -18,9 +18,6 @@ section{
 div.foto{
     display: flex;
     margin-top:15px;
-    position:relative;
-    width:100%;
-    max-widht:700px;
-    aspect-ratio: 70/45;
-    margin:2mm auto;
+    width:500px;
+    height:300px;
 }
