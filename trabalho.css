@@ -18,8 +18,13 @@ section{
 div.foto{
     display: flex;
     margin-top: 15px;
-}@media screen and (max-width: 600px) {
-        /* Estilos para celulares */
+    height: 345;
+    width: 436;
+}@media screen and (max-width: 768px) {
+        div.foto{
+            width: 100%;
+            flex-direction: column;
+        }
     }@media screen and (min-width: 601px) and (max-width: 1024px) {
         /* Estilos para tablets */
     }@media screen and (min-width: 1025px) {
