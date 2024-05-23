@@ -23,13 +23,13 @@ div.foto{
             width: 100%;
             flex-direction:column;
         }
-    }@media screen and (min-width: 601px) and (max-width: 1024px) {
-        .foto{
+}@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .foto{
             width: 100%;
             flex-direction:column;
         }
-    }@media screen and (min-width: 1025px) {
-        .foto{
+}@media screen and (min-width: 1025px) {
+    .foto{
             width: 100%;
             flex-direction:column;
         }
