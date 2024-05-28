@@ -19,6 +19,9 @@ section{
 div.foto{
     display: flex;
     margin-top: 15px;
+    img{
+        border-radius: 15px;
+    }
 }@media screen and (max-width: 768px) {
     .foto{
             width: 100%;
