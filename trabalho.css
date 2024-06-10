@@ -12,29 +12,32 @@ section{
     border-radius: 10px;
     color: white;
     margin:auto;
-    background-color: rgb(20, 19, 19);
     padding:15px;
     background-color: rgb(45, 41, 41);
 }
-div.foto{
+.foto{
     display: flex;
-    margin-top: 15px;
+    margin-top: 25px;
     img{
-        border-radius: 10px;
+        border-radius: 20px;
     }
-}@media screen and (max-width: 768px) {
-    .foto{
-            width: 100%;
-            flex-direction:column;
-        }
-}@media screen and (min-width: 601px) and (max-width: 1024px) {
-    .foto{
-            width: 100%;
-            flex-direction:column;
-        }
-}@media screen and (min-width: 1025px) {
-    .foto{
-            width: 100%;
-            flex-direction:column;
-        }
 }
+@media screen and (max-width: 768px) {
+    .foto{
+            width: 100%;
+            flex-direction:column;
+        }
+} /*tela pra telefone*/
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .foto{
+            width: 100%;
+            flex-direction:column;
+        }
+
+}/*tela de teblets*/
+@media screen and (min-width: 1025px) {
+    .foto{
+            width: 100%;
+            flex-direction:column;
+        }
+}/*tela de laptops e desktops*/
